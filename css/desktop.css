@@ -1,0 +1,99 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
+    .hero{
+        padding: 188px 0;
+    } 
+    .title-hero {
+    margin-bottom: 48px;
+         }
+    .about{
+    padding: 120px 0;
+    }
+    .about-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    }
+    .about-text {
+    font-weight: 400;
+    }
+    .about-list{
+    display:flex;
+
+}
+ .about-item:not(:last-child) {
+     margin-right: 24px;}
+
+.about-item::before{
+    content: '';
+    display: block; 
+    height: 112px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-antenna::before{
+    background-image: url(../images/antenna.svg);
+    background-size: 64px;
+}
+.icon-clock::before {
+    background-image: url(../images/clock.svg);
+    background-size: 64px;
+}
+.icon-diagramm::before {
+    background-image: url(../images/diagram.svg);
+    background-size: 64px;
+}
+.icon-astronaut::before{
+    background-image: url(../images/astronaut.svg);
+    background-size: 64px;
+}
+.activity {
+    display: block;}
+.team {
+     padding: 120px 0;
+ }
+
+.team-list {
+    display: flex;}
+.team-item:not(:last-child) {
+    margin-right: 24px;
+ }
+.customers {
+    padding: 120px 0 130px;
+  }
+.customers-item:not(:last-child) {
+    margin-right: 24px;}
+.customers-list {
+    display: flex;}
+.footer {
+    padding: 100px 0;
+}
+.footer-constraction {
+    display: flex;
+} 
+
+.footer-first-part {
+    margin-right: 120px;
+   }
+.footer-input {
+    width: 264px;
+    margin-right: 24px;
+}
+.footer-flex-tablet {
+    margin-right: 80px;
+}
+.modal {
+    position: absolute;
+    width: 408px;
+    min-height: 576px;
+    padding: 72px 24px 24px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+}

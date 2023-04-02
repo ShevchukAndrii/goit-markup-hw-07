@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile-large.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 </head>
 <body>
 <header class="header">
@@ -25,6 +28,9 @@
                 <li class="header-item"> <a href="" class="header-link link">Contacts</a></li>
             </ul>
         </nav>
+        <button type="button" class="header-burger-button"><svg width="32px" height="32px" class="header-burger-icon">
+                <use href="./images/symbol-defs-forms.svg#icon-menu_burger"></use>
+            </svg></button>
         <address>
             <ul class="header-list list">
                 <li class="header-address"> <a class="header-mail link"
@@ -34,14 +40,14 @@
             </ul>
         </address>
     </div>
-</header>
+</header> 
     <main>
         <section class="hero">
             <div class="container">
             <h1 class="title-hero">Effective Solutions for Your Business</h1>
             <button class="button-hero" type="button" data-modal-open>Order Service</button>
             </div>
-        </section>
+        </section> 
         <section class="about">
             <div class="container">
        <h2 class="visually-hidden">Section2</h2>
@@ -72,7 +78,7 @@
             </li>
         </ul>
             </div>
-        </section>
+        </section> 
         <section class="activity"> 
             <div class="container">
         <h2 class="activity-title">What are we doing</h2>
@@ -83,8 +89,8 @@
         </ul>
         </div>
         </section>
-         <section class="team">
-            <div class="container">
+        <section class="team">
+            <div class="container tablet">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list list">
             <li class="team-item">
@@ -171,7 +177,7 @@
         </div>
         </section>
         <section class="customers">
-            <div class="container">
+            <div class="container tablet">
             <h2 class="customers-title">Customers</h2>
             <ul class="customers-list list">
             <li class="customers-item"><a href="" class="customers-link link">
@@ -212,10 +218,11 @@
             </ul>
 
             </div>
-        </section>
+        </section> 
     </main>
     <footer class="footer">
-        <div class="container footer-constraction">
+        <div class="container footer-constraction tablet">
+        <div class="footer-flex-tablet">
         <div class="footer-first-part">   
         <a class="footer-logo link" href="./index.html"><span class="footer-partlogo">Web</span>Studio</a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
@@ -240,6 +247,7 @@
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg></a></li>
         </ul>
+        </div>
         </div>
         <div class="footer-third-part">
         <form class="footer-form">
