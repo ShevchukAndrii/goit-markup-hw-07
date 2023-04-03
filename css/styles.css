@@ -89,7 +89,7 @@ img{
     height:32px;
     line-height: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header-first{
         display:none;
     }
@@ -195,8 +195,11 @@ img{
 }
 @media screen and (max-width: 767px) {
 .about-text {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     }
+.about-text.last{
+    margin-bottom: 0;
+}
 }
 
 .about-item{
@@ -363,10 +366,11 @@ display:none;
         }
         @media screen and (max-width: 425px) {
         .customers-item{
-        margin-bottom: 72px;
         margin-left: auto;
         margin-right: auto;
         }
+        .customers-item:not(:last-child){
+            margin-bottom: 72px;}
         
         }
         @media screen and (min-width: 426px) and (max-width: 767px){

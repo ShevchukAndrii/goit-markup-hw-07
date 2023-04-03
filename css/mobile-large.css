@@ -5,5 +5,7 @@
     .title-hero{
         width: 320px;
     }        
-    
+    .container.container-mobile-menu{
+        padding: 80px 34px 40px 39px;
+    }
 }
