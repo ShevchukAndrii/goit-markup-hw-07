@@ -96,4 +96,27 @@
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
 }
+.header-logo {
+    margin-right: 76px;
+}
+.header-list {
+    display: flex;
+
+}
+.header-mail{
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-tel {
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-address:not(:last-child) {
+    margin-right: 40px;
+
+}
 }
